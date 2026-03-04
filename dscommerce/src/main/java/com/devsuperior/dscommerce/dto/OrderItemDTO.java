@@ -20,7 +20,7 @@ public class OrderItemDTO {
 		this.quantity = quantity;
 		this.imgUrl = imgUrl;
 	}
-	
+
 	public OrderItemDTO(OrderItem entity) {
 		productId = entity.getProduct().getId();
 		name = entity.getProduct().getName();
